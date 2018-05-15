@@ -15,7 +15,7 @@ def speak(text):
 def recordAudio():
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        speak("Say something")
+        speak("How may i help you?")
         audio = r.listen(source)
     
     data=r.recognize_google(audio)
@@ -31,7 +31,7 @@ def recordAudio():
         print("Could not request results from Google Speech Recognition service; {0}".format(e))
     return data
   
-speak("Good Morning")
+speak("I am groot")
 data=recordAudio()
 
 if "what time is it" in data:
