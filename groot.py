@@ -1,7 +1,6 @@
 import speech_recognition as sr
 import win32com.client as wincl
 from time import ctime
-import time
 import os
 
 
