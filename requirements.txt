@@ -1,5 +1,2 @@
 wolframalpha
 wikipedia
-SpeechRecognition
-wxPython
-pywin32
